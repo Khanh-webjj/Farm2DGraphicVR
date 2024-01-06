@@ -734,11 +734,11 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
-  cloudProjectId: 
+  cloudProjectId: 80376f12-0c6a-42a9-91da-407b1ec4f7b9
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: 
-  organizationId: 
+  projectName: Farm2DGraphicVR
+  organizationId: khanhkhongtrang
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   playerDataPath: 
