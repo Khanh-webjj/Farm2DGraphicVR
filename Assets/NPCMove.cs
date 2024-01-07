@@ -7,12 +7,12 @@ using UnityEngine;
 public class NPCMove : MonoBehaviour
 {
     Rigidbody2D r2d;
-	public Transform moveTo;
+	public Transform moveTo; 
 	[SerializeField] float speed = 3f;
 	Animator animator;
 	private void Awake()
 	{
-		r2d = GetComponent<Rigidbody2D>();
+		r2d = GetComponent<Rigidbody2D>(); // regid body 2D of NPC
 		animator = GetComponentInChildren<Animator>();
 	}
 	private void Start()
