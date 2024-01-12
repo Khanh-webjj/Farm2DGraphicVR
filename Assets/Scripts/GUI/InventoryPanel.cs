@@ -13,7 +13,7 @@ public class InventoryPanel : ItemPanel
 		Show();
 	}
 
-	/*[SerializeField] ItemContainer inventory;
+	[SerializeField] ItemContainer inventory;
 	[SerializeField] List<InventoryButton> buttons;
 	private void Start()
 	{
@@ -46,5 +46,5 @@ public class InventoryPanel : ItemPanel
 				buttons[i].Set(inventory.slots[i]);
 			}
 		}
-	}*/
+	}
 }

@@ -11,12 +11,13 @@ public class MainMenu : MonoBehaviour
     public void ExitGame()
 	{
 		Debug.LogError("Quit");
-		Application.Quit();
+		Application.Quit(); // exit game
 	}
 	public void StartNewGame()
 	{
-		SceneManager.LoadScene(nameNewGameStartScene, LoadSceneMode.Single);
-		SceneManager.LoadScene(nameEssentialScene,  LoadSceneMode.Additive);
+        // load màn hình sence khác nhau
+        SceneManager.LoadScene(nameNewGameStartScene, LoadSceneMode.Single); //  màn hình b?t ??u trò ch?i
+		SceneManager.LoadScene(nameEssentialScene,  LoadSceneMode.Additive); // thanh máu và n?ng l??ng 
 		
 
 	}
